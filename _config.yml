@@ -19,7 +19,7 @@ disqus_shortname: #disqus shortname
 
 user:
   name: rhdtlfd
-  pic: /assets/img/i.jpg
+  pic: /assets/img/me.jpg
   picAlt: "tuyoluz"
   job: dreamer
   aboutme: true # comment this out if you don't need the 'about' page.
