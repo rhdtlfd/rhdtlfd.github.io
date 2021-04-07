@@ -11,16 +11,16 @@
    ========================================================================== */
 
 @mixin lightMode {
-    --bg_color: #eee;
-    --header_bg: #fafafa;
+    --bg_color: #81ac8b;
+    --header_bg: #f2e5a2;
     --content_bg: #fff;
     --archive_font: #000;
-    --archive_title: #46a891;
-    --archive_title_hover: #87CDBD;
-    --name_font: #FFAA00;
-    --job_font: #003845;
-    --nav_font: #8d7edc;
-    --nav_font_hover: #D4CEF2;
+    --archive_title: #f89883;
+    --archive_title_hover: #d96666;
+    --name_font: #000;
+    --job_font: #000;
+    --nav_font: #000;
+    --nav_font_hover: #f89883;
     --shadow_color: rgba(160, 160, 160, 0.05);
     --post_title: #003845;
     --post_date: #003845;
@@ -37,16 +37,16 @@
 }
 
 @mixin darkMode {
-    --bg_color: #1C1C1E;
-    --header_bg: #24292E;
+    --bg_color: #425957;
+    --header_bg: #f2e5a2;
     --content_bg: #2F3437;
-    --archive_font: #CACCCE;
-    --archive_title: #46a891;
-    --archive_title_hover: #87CDBD;
-    --name_font: #FFAA00;
-    --job_font: #CACCCE;
-    --nav_font: #8d7edc;
-    --nav_font_hover: #D4CEF2;
+    --archive_font: #fff;
+    --archive_title: #f89883;
+    --archive_title_hover: #d96666;
+    --name_font: #000;
+    --job_font: #000;
+    --nav_font: #000;
+    --nav_font_hover: #f89883;
     --shadow_color: rgba(0, 0, 0, 1);
     --post_title: #46a891;
     --post_date: #e9ead7;
@@ -109,6 +109,7 @@ html.dark {
 
 body {
     height: 100%;
+    line-height: 5px;
     font-weight: normal;
     font-style: normal;
     font-family: -apple-system, BlinkMacSystemFont, 'Titillium Web', "Segoe UI", Roboto, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
